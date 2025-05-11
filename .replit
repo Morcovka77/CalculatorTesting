@@ -1,0 +1,40 @@
+modules = ["dotnet"]
+
+[nix]
+channel = "stable-24_05"
+packages = ["dotnet-sdk"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Run C# Calculator Tests"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "calc-test-workflow"
+
+[[workflows.workflow]]
+name = "Run C# Calculator Tests"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "dotnet test"
+
+[[workflows.workflow]]
+name = "calc-test-workflow"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "dotnet test"
+
+[deployment]
+run = ["sh", "-c", "dotnet test"]

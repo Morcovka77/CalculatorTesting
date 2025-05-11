@@ -1,0 +1,12 @@
+/home/runner/workspace/CalculatorLib/bin/Debug/net6.0/CalculatorLib.deps.json
+/home/runner/workspace/CalculatorLib/bin/Debug/net6.0/CalculatorLib.dll
+/home/runner/workspace/CalculatorLib/bin/Debug/net6.0/CalculatorLib.pdb
+/home/runner/workspace/CalculatorLib/obj/Debug/net6.0/CalculatorLib.csproj.AssemblyReference.cache
+/home/runner/workspace/CalculatorLib/obj/Debug/net6.0/CalculatorLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/workspace/CalculatorLib/obj/Debug/net6.0/CalculatorLib.AssemblyInfoInputs.cache
+/home/runner/workspace/CalculatorLib/obj/Debug/net6.0/CalculatorLib.AssemblyInfo.cs
+/home/runner/workspace/CalculatorLib/obj/Debug/net6.0/CalculatorLib.csproj.CoreCompileInputs.cache
+/home/runner/workspace/CalculatorLib/obj/Debug/net6.0/CalculatorLib.dll
+/home/runner/workspace/CalculatorLib/obj/Debug/net6.0/refint/CalculatorLib.dll
+/home/runner/workspace/CalculatorLib/obj/Debug/net6.0/CalculatorLib.pdb
+/home/runner/workspace/CalculatorLib/obj/Debug/net6.0/ref/CalculatorLib.dll
